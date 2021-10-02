@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mikael Kohn</title>
+        <meta name="description" content="photographer, cinematographer">
+        <meta name="keywords" content="photography, photographer, cinematographer, art, portfolio, work, photos">
+        <link rel="icon" href="images/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+        <a href="index.html"><img src="images/logo.png" alt="logo" width="170px" height="170px"/></a>
+            <div class="menu">
+                <ul>
+                    <li><a class="about" href="#about">About</a></li>
+                    <li><a class="work" href="#work">Work</a></li>
+                    <li><a class="contact" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="rect1">
+                <div class="image1">
+                    <img src="images/about.png" alt="about" width="634px" height="auto"/>
+                </div> 
+                <div class="divider1">
+                    <img src="images/divider1.png" alt="divider1" width="100%" height="80%"/>
+                </div>
+                <div class="paragraph1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem odio, lacinia sed massa ut, mattis gravida quam. Proin sit amet ultrices felis. Curabitur auctor augue vel molestie hendrerit.</p></div>
+                <div class="circle1"></div>   
+                <div class="circle2"></div>  
+                <div class="name swing-in-left-fwd "><h1>Mikael Kohn</h1></div>
+                <div class="prof fade-in-fwd"><h2>Photographer & Cinematographer</h2></div>
+                <div class="image2">
+                    <img src="images/illustration.png" alt="camera-illustration" width="30%" max-width="30%" height="auto"/>
+                </div>
+                 <div class="arrow">
+                    <img src="images/arrow.png" alt="arrow" height="20%" />
+                </div>
+                <div class="scroll"><p>Scroll</p></div>
+            </div>
+            <div class="divider2">
+                <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;<br/>Top</button>
+                <img src="images/divider2.png" alt="divider2" width="100%" height="auto"/>
+                <div class="anim1">
+                    <div class="anim2">
+                        <div class="title1 anim3" id="about"><h2>About</h2></div>
+                    </div>
+                    <div class="anim2">
+                        <div class="paragraph2 anim3"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies imperdiet ante quis placerat. Curabitur accumsan risus non urna feugiat rhoncus. Cras tortor nisl, ullamcorper quis mattis vel, dapibus lacinia enim. Cras sed arcu quis ex aliquam vestibulum in sed massa. Curabitur mauris tellus, luctus id risus eget, imperdiet faucibus nibh. Nulla porta ante neque, vel egestas magna maximus sed. Duis aliquet arcu sed sodales molestie. Cras augue lectus, dictum et urna nec, tincidunt maximus lacus. Vivamus vestibulum interdum lorem a luctus. Integer ut accumsan enim, eget eleifend velit. Integer eu malesuada nunc.
+                        <br/> 
+                        <br/>   
+                        Aliquam aliquet a lectus vel blandit. Proin tincidunt, arcu ut dignissim venenatis, nulla augue commodo erat, at tincidunt sapien lorem in eros. Donec venenatis efficitur feugiat. Nam nec lorem vel enim interdum venenatis eget vitae erat. Aenean tempor feugiat </p></div>
+                    </div>
+                    <div class="row-minigal">
+                        <div class="col-minigal">
+                            <div class="anim2">
+                                <div class="title2 anim3"><h3>PORTRAIT</h3></div>
+                            </div>
+                            <div class="anim2">
+                                <div class="img1 anim3">
+                                    <img src="images/1.jpg" width="100%" height="auto"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-minigal">
+                            <div class="anim2">
+                                <div class="title3 anim3"><h3>LANDSCAPE</h3></div>
+                            </div>
+                            <div class="anim2">
+                                <div class="img2 anim3">
+                                    <img src="images/2.jpg" width="100%" height="auto"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-minigal">
+                            <div class="anim2">
+                                <div class="title4 anim3"><h3>NATURE</h3></div>
+                            <div class="anim2">
+                            <div class="anim2">
+                                <div class="img3 anim3">
+                                    <img src="images/3.jpg" width="100%" height="auto"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="anim4">
+                <div class="paragraph3 anim5">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies imperdiet ante quis placerat. Curabitur accumsan risus non urna feugiat rhoncus. </h4>
+                </div>
+            </div>
+            <div class="photo-divider">
+                <div class="img4">
+                    <img src="images/4.jpg" width="100%" height="auto"/>
+                </div>
+            </div>
+            <div class="photo-gallery">
+                <div class="title5" id="work"><h2>My Work</h2></div>
+                <div class="gallery-container">
+                    <div class="row">
+                        <div class="column">
+                            <div class="grow-shadow"><img src="images/work/work1.jpg" id="myImg1" width="100%" />
+                            </div>
+                            <div id="myModal1" class="modal">
+                                <span class="close close1">&times;</span>
+                                <img class="modal-content" id="img1">
+                            </div>
+                            <div class="grow-shadow"><img src="images/work/work2.jpg" id="myImg2" width="100%" /></div>
+                             <div id="myModal2" class="modal">
+                                <span class="close close2">&times;</span>
+                                <img class="modal-content" id="img2">
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="grow-shadow"><img src="images/work/work3.jpg" id="myImg3" width="100%" /></div>
+                            <div id="myModal3" class="modal">
+                                <span class="close close3">&times;</span>
+                                <img class="modal-content" id="img3">
+                            </div>
+                            <div class="grow-shadow"><img src="images/work/work4.jpg" id="myImg4"width="100%" /></div>
+                            <div id="myModal4" class="modal">
+                                <span class="close close4">&times;</span>
+                                <img class="modal-content" id="img4">
+                            </div>
+                        </div>    
+                        <div class="column">
+                            <div class="grow-shadow"><img src="images/work/work5.jpg" id="myImg5" width="100%" /></div>
+                            <div id="myModal5" class="modal">
+                                <span class="close close5">&times;</span>
+                                <img class="modal-content" id="img5">
+                            </div>
+                            <div class="grow-shadow"><img src="images/work/work6.jpg" id="myImg6" width="100%" /></div>
+                            <div id="myModal6" class="modal">
+                                <span class="close close6">&times;</span>
+                                <img class="modal-content" id="img6">
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="grow-shadow"><img src="images/work/work7.jpg" id="myImg7" width="100%" /></div>
+                            <div id="myModal7" class="modal">
+                                <span class="close close7">&times;</span>
+                                <img class="modal-content" id="img7">
+                            </div>
+                            <div class="grow-shadow"><img src="images/work/work8.jpg" id="myImg8" width="100%" /></div>
+                            <div id="myModal8" class="modal">
+                                <span class="close close8">&times;</span>
+                                <img class="modal-content" id="img8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="divider3">
+                    <img src="images/divider3.png" alt="divider3" id="myImg" width="100%" height="auto"/>
+                </div>
+                <div class="divider4">
+                    <img src="images/divider4.png" alt="divider4" id="myImg" width="40%" height="auto"/>
+                </div> 
+                <div class="anim6">
+                    <div class="title6 anim7" id="contact"><h2>Contact me</h2></div>  
+                </div>
+                <div class="par4"><p>Mikael Kohn</p></div>
+                <div class="par5"><p>Tel:  +30  6974559106</p></div>
+                <div class="par6"><p>Email:  mikaelkohn@gmail.com</p></div>
+                <div class="behance">
+                    <a href=""><img src="images/behance.png" alt="behance" width="60px" height="auto"/></a>
+                </div>
+                <div class="linkedin">
+                    <a href=""><img src="images/linkedin.png" alt="linkedin" width="60px" height="auto"/></a>
+                </div>
+            </div>
+            <script type="text/javascript">
+                // Get the modal
+                var modal1 = document.getElementById("myModal1");
+
+                // Get the image and insert it inside the modal
+                var img1 = document.getElementById("myImg1");
+                var modalImg1 = document.getElementById("img1");
+                img1.onclick = function(){
+                    modal1.style.display = "block";
+                    modalImg1.src = this.src;
+                }
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close1")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() { 
+                    modal1.style.display = "none";
+                }
+
+                // Get the modal
+                var modal2 = document.getElementById("myModal2");
+
+                // Get the image and insert it inside the modal
+                var img2 = document.getElementById("myImg2");
+                var modalImg2 = document.getElementById("img2");
+                img2.onclick = function(){
+                    modal2.style.display = "block";
+                    modalImg2.src = this.src;
+                }
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close2")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() { 
+                    modal2.style.display = "none";
+                }
+
+                // Get the modal
+                var modal3 = document.getElementById("myModal3");
+
+                // Get the image and insert it inside the modal
+                var img3 = document.getElementById("myImg3");
+                var modalImg3 = document.getElementById("img3");
+                img3.onclick = function(){
+                    modal3.style.display = "block";
+                    modalImg3.src = this.src;
+                }
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close3")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() { 
+                    modal3.style.display = "none";
+                }
+
+                // Get the modal
+                var modal4 = document.getElementById("myModal4");
+
+                // Get the image and insert it inside the modal
+                var img4 = document.getElementById("myImg4");
+                var modalImg4 = document.getElementById("img4");
+                img4.onclick = function(){
+                    modal4.style.display = "block";
+                    modalImg4.src = this.src;
+                }
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close4")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() { 
+                    modal4.style.display = "none";
+                }
+
+                // Get the modal
+                var modal5 = document.getElementById("myModal5");
+
+                // Get the image and insert it inside the modal
+                var img5 = document.getElementById("myImg5");
+                var modalImg5 = document.getElementById("img5");
+                img5.onclick = function(){
+                    modal5.style.display = "block";
+                    modalImg5.src = this.src;
+                }
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close5")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() { 
+                    modal5.style.display = "none";
+                }
+
+                // Get the modal
+                var modal6 = document.getElementById("myModal6");
+
+                // Get the image and insert it inside the modal
+                var img6 = document.getElementById("myImg6");
+                var modalImg6 = document.getElementById("img6");
+                img6.onclick = function(){
+                    modal6.style.display = "block";
+                    modalImg6.src = this.src;
+                }
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close6")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() { 
+                    modal6.style.display = "none";
+                }
+
+                // Get the modal
+                var modal7 = document.getElementById("myModal7");
+
+                // Get the image and insert it inside the modal
+                var img7 = document.getElementById("myImg7");
+                var modalImg7 = document.getElementById("img7");
+                img7.onclick = function(){
+                    modal7.style.display = "block";
+                    modalImg7.src = this.src;
+                }
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close7")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() { 
+                    modal7.style.display = "none";
+                }
+
+                // Get the modal
+                var modal8 = document.getElementById("myModal8");
+
+                // Get the image and insert it inside the modal
+                var img8 = document.getElementById("myImg8");
+                var modalImg8 = document.getElementById("img8");
+                img8.onclick = function(){
+                    modal8.style.display = "block";
+                    modalImg8.src = this.src;
+                }
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close8")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() { 
+                    modal8.style.display = "none";
+                }
+            </script>
+            <script type="text/javascript">
+                    $(document).ready(function(){
+                      // Add smooth scrolling to all links
+                      $("a").on('click', function(event) {
+
+                        // Make sure this.hash has a value before overriding default behavior
+                        if (this.hash !== "") {
+                          // Prevent default anchor click behavior
+                          event.preventDefault();
+
+                          // Store hash
+                          var hash = this.hash;
+
+                          // Using jQuery's animate() method to add smooth page scroll
+                          $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                          }, 1500, function(){
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                          });
+                        } 
+                      });
+                    });
+            </script>
+            <script type="text/javascript">
+                //Get the button:
+                mybutton = document.getElementById("myBtn");
+
+                // When the user scrolls down 200px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() {
+                  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0; 
+                    document.documentElement.scrollTop = 0;
+                }
+
+            </script>
+            <script type="text/javascript">
+                    $(function() {
+                      var anim = $('.anim1');
+                      var $window = $(window);
+                      
+                      $window.on('scroll', function() {
+                        var rev = Math.max(0, $window.height() - 100);
+                        var scrollTop = $window.scrollTop();
+
+                        if (!anim.hasClass('visible') &&
+                            $window.scrollTop() + rev > anim.offset().top) {
+                                anim.addClass('visible');
+                                return;
+                            }
+                        
+                        if (anim.hasClass('visible') &&
+                            $window.scrollTop() + rev < anim.offset().top) {
+                                anim.removeClass('visible');
+                                return;
+                            }
+                        });
+                    });
+            </script>
+            <script type="text/javascript">
+                    $(function() {
+                      var animPar = $('.anim4');
+                      var $window = $(window);
+                      
+                      $window.on('scroll', function() {
+                        var revPar = Math.max(0, $window.height() - 100);
+                        var scrollTop = $window.scrollTop();
+
+                        if (!animPar.hasClass('visible') &&
+                            $window.scrollTop() + revPar > animPar.offset().top) {
+                                animPar.addClass('visible');
+                                return;
+                            }
+                        
+                        if (animPar.hasClass('visible') &&
+                            $window.scrollTop() + revPar < animPar.offset().top) {
+                                animPar.removeClass('visible');
+                                return;
+                            }
+                        });
+                    });
+            </script>
+            <script type="text/javascript">
+                    $(function() {
+                      var animCon = $('.anim6');
+                      var $window = $(window);
+                      
+                      $window.on('scroll', function() {
+                        var revCon = Math.max(0, $window.height() - 100);
+                        var scrollTop = $window.scrollTop();
+
+                        if (!animCon.hasClass('visible') &&
+                            $window.scrollTop() + revCon > animCon.offset().top) {
+                                animCon.addClass('visible');
+                                return;
+                            }
+                        
+                        if (animCon.hasClass('visible') &&
+                            $window.scrollTop() + revCon< animCon.offset().top) {
+                                animCon.removeClass('visible');
+                                return;
+                            }
+                        });
+                    });
+            </script>
+        </main>
+        <footer>
+            <p>Copyright: Mikael Kohn 2021</p>
+        </footer>    
+    </body>
+</html>     
